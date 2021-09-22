@@ -1,0 +1,28 @@
+{
+  "name": "youtube-downloader",
+  "version": "1.0.0",
+  "description": "Youtube Downloader made in typescript with reactjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ytdl": "bin/ytdl.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatmansaico/Youtube-Downloader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fatmansaico/Youtube-Downloader/issues"
+  },
+  "homepage": "https://github.com/fatmansaico/Youtube-Downloader#readme",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "cheerio": "^1.0.0-rc.10",
+    "listr2": "^3.12.1"
+  }
+}
